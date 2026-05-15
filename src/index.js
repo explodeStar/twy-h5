@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import './index.css';
 import App from './App';
-// import reportWebVitals from './reportWebVitals';
+// import '@/assets/styles/index.scss';
+// import '@sass/index.scss';
+// import 'antd-mobile/lib/button/style/css'
+import '@sass/index.scss';
+import 'antd-mobile/es/global'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
