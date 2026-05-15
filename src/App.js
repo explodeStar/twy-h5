@@ -4,7 +4,7 @@ import {
   Route,
   Routes,
   Navigate,
-  Link,
+  // Link,
 } from "react-router-dom";
 import "@/app.scss";
 const Login = React.lazy(() => import("@/pages/Login"));
