@@ -51,6 +51,10 @@ input {
   border: 0;
   resize: none;
   color: #333;
+  // 覆盖默认样式
+  &:focus-visible {
+    outline: none;
+  }
 }
 
 textarea {

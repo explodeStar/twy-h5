@@ -2,9 +2,9 @@ import React from "react";
 // import styles from "./index.module.scss";
 
 
-export default function Home() {
+export default function QA() {
 
   return (
-      <div className="tab-content">首页</div>
+      <div className="tab-content">QA</div>
   );
 }
